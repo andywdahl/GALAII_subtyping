@@ -1,3 +1,5 @@
+The following steps will reproduce all panels in all GALA II figures in "Subtyping asthma unravels heterogeneous genetic etiologies", Dahl et al 2024+. (With the exception of Fig 3C, which was produced by the Seibold lab.)
+
 Step 0: set up data, global paramters, utility functions:
 -global parameters:							setup.R
 -convert data matrix to Rdata:	parse_gala_data/read_gala_data.R
