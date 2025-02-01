@@ -7,7 +7,7 @@ load( 'Rdata/setup.Rdata' )
 it  <- as.numeric( commandArgs(TRUE)[[1]] )
 set.seed( it )
 
-for( type in types[1:2] )
+for( type in types )
 	for( method in sample(methods) )
 		for( sig2.i in sample(length(sig2hets)) )
 try({
