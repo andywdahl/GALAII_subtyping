@@ -26,3 +26,6 @@ Step 5: subtype-specific PRS effects: first build PRS (build_prs.sh); then test 
 Step 6: Estimate subtype-specific heritability for 2ndary features (gxemm.R) and plot with Fig4D.R
 
 Alternative Step 2: use k-means instead of RGWAS (run_kmeans.R), then repeat GWAS (Step 4), then compare QQ plots across k=2,3,4 (kmeans_plots.R)
+
+
+Additionally, code to reproduce the simulations in the Supplement lives in the folder sims/
